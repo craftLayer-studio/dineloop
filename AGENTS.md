@@ -9,7 +9,7 @@ Brief for any AI agent (or new teammate) working on DineLoop. Read this first.
 3. Buyer: the owner of a single independent outlet with 8–40 tables in a Tier 1–2 city. Decision in one meeting; pays from the outlet's bank account or UPI AutoPay.
 4. Money model: subscription (₹999 / ₹2,499 / ₹4,999 per month, or ₹9,999 / ₹24,999 / ₹49,999 per year) + one-time setup + WhatsApp message margin + payment-partner revenue share.
 5. Existing code: the founder's prototype **TableTap** ([github.com/craftLayer-studio/tabletap](https://github.com/craftLayer-studio/tabletap), Next.js + TypeScript, milestone M0, in-memory store, simulated payments) is DineLoop's ordering module: guest `/t/{table}` menu, order, live status, call waiter, GST bill, tip, even split, UPI intent link, review; `/staff` floor map; `/kitchen` station display; `/owner` day summary. Its `PLAN.md` holds the data model, order state machine and milestones M0–M3. Build DineLoop on top of it; do not restart. Coverage map: [docs/01-product-plan.md](docs/01-product-plan.md#existing-codebase-tabletap).
-6. Most shared capability (QR engine, ordering, payments, CRM, WhatsApp, loyalty, games, reviews, staff app, analytics) comes from [`../core/`](../core/README.md). DineLoop adds restaurant-specific modules: table/section model, KDS, course and modifier handling, KOT printing, GST restaurant billing, recipe costing.
+6. Most shared capability (QR engine, ordering, payments, CRM, WhatsApp, loyalty, games, reviews, staff app, analytics) comes from [`../core/`](https://github.com/craftLayer-studio/craftlayer-core/blob/main/README.md). DineLoop adds restaurant-specific modules: table/section model, KDS, course and modifier handling, KOT printing, GST restaurant billing, recipe costing.
 
 ## Reading order
 
@@ -73,7 +73,7 @@ Brief for any AI agent (or new teammate) working on DineLoop. Read this first.
 
 ## Rules for agents editing these docs
 
-- Follow [../CONVENTIONS.md](../CONVENTIONS.md). Cite every number with URL + access date, or mark **(estimate)** with reasoning.
+- Follow [../CONVENTIONS.md](https://github.com/craftLayer-studio/craftlayer-products/blob/main/CONVENTIONS.md). Cite every number with URL + access date, or mark **(estimate)** with reasoning.
 - Do not re-spec core modules; link to `../core/`.
 - Every feature row must name the metric it moves.
 - Any change touching diner phone numbers must keep DPDP notice, opt-in, opt-out and purpose limitation intact.
