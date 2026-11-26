@@ -65,3 +65,9 @@ Shared platform modules: [../core/README.md](https://github.com/craftLayer-studi
 Source-available under the [PolyForm Noncommercial License 1.0.0](LICENSE.md). Personal, educational, research and non-profit use is free. **Any commercial use requires a paid licence or written permission from CraftLayer Studio.** See [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
 
 Part of the [CraftLayer Products](https://github.com/craftLayer-studio/craftlayer-products) portfolio.
+
+## Links
+
+- Website: https://craftlayer.store
+- App: https://dineloop.craftlayer.store (code: https://github.com/craftLayer-studio/tabletap)
+- Support: dineloop@craftlayer.store
